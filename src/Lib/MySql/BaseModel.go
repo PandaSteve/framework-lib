@@ -4,9 +4,9 @@ package MySqlLib
 
 import (
 	"fmt"
+	"github.com/PandaSteve/framework-lib/src/Lib/Util/DataType"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jmoiron/sqlx"
-	"github.com/lazypandatg/framework-lib/src/Lib/Util/DataType"
 	_ "github.com/lib/pq"
 	"github.com/sirupsen/logrus"
 	"log"

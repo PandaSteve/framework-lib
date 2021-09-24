@@ -2,8 +2,8 @@
 package MySqlLib
 
 import (
-	"github.com/lazypandatg/framework-lib/src/Lib/DataSource"
-	"github.com/lazypandatg/framework-lib/src/Lib/MySql/Config"
+	"github.com/PandaSteve/framework-lib/src/Lib/DataSource"
+	"github.com/PandaSteve/framework-lib/src/Lib/MySql/Config"
 	"log"
 	"strconv"
 )

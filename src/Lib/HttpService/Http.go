@@ -2,7 +2,7 @@ package HttpServiceLib
 
 import (
 	"flag"
-	"github.com/lazypandatg/framework-lib/src/Lib/Message"
+	"github.com/PandaSteve/framework-lib/src/Lib/Message"
 	"log"
 	"net/http"
 )

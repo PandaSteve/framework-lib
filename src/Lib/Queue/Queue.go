@@ -1,8 +1,8 @@
 package Queue
 
 import (
-	"github.com/lazypandatg/framework-lib/src/Lib/DataSource"
-	"github.com/lazypandatg/framework-lib/src/Lib/MySql"
+	"github.com/PandaSteve/framework-lib/src/Lib/DataSource"
+	"github.com/PandaSteve/framework-lib/src/Lib/MySql"
 	"log"
 	"strconv"
 	"sync"

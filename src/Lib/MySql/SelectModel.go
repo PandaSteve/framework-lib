@@ -1,7 +1,7 @@
 package MySqlLib
 
 import (
-	DataSource2 "github.com/lazypandatg/framework-lib/src/Lib/DataSource"
+	DataSource2 "github.com/PandaSteve/framework-lib/src/Lib/DataSource"
 	"strings"
 )
 

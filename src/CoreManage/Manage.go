@@ -1,11 +1,11 @@
 package CoreManage
 
 import (
-	"github.com/lazypandatg/framework-lib/src/Lib/HttpService"
-	"github.com/lazypandatg/framework-lib/src/Lib/Message"
-	"github.com/lazypandatg/framework-lib/src/Lib/MySql"
-	"github.com/lazypandatg/framework-lib/src/Lib/Queue"
-	"github.com/lazypandatg/framework-lib/src/Lib/Util/DataType"
+	"github.com/PandaSteve/framework-lib/src/Lib/HttpService"
+	"github.com/PandaSteve/framework-lib/src/Lib/Message"
+	"github.com/PandaSteve/framework-lib/src/Lib/MySql"
+	"github.com/PandaSteve/framework-lib/src/Lib/Queue"
+	"github.com/PandaSteve/framework-lib/src/Lib/Util/DataType"
 	"log"
 )
 

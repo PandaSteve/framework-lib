@@ -1,9 +1,9 @@
 package CoreManage
 
 import (
-	HttpServiceLib "github.com/lazypandatg/framework-lib/src/Lib/HttpService"
-	"github.com/lazypandatg/framework-lib/src/Lib/Message"
-	"github.com/lazypandatg/framework-lib/src/Lib/MySql"
+	HttpServiceLib "github.com/PandaSteve/framework-lib/src/Lib/HttpService"
+	"github.com/PandaSteve/framework-lib/src/Lib/Message"
+	"github.com/PandaSteve/framework-lib/src/Lib/MySql"
 )
 
 type Config struct {
