@@ -1,12 +1,12 @@
 package MySqlLib
 
 import (
-	DataSource2 "github.com/PandaSteve/framework-lib/src/Lib/DataSource"
+	"github.com/PandaSteve/framework-lib/src/Lib/DataSource"
 	"strings"
 )
 
 type SearchModel struct {
-	FieldList []DataSource2.FieldModel
+	FieldList []DataSourceLib.FieldModel
 	ValueList []interface{}
 	FieldBaseModel
 }

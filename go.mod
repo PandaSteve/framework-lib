@@ -1,6 +1,6 @@
 module github.com/PandaSteve/framework-lib
 
-go 1.16
+go 1.17
 
 require (
 	github.com/MinoIC/bt-go-sdk v0.1.16

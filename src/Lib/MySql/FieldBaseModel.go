@@ -116,12 +116,11 @@ func (_this *FieldBaseModel) Order(FieldList []DataSourceLib.FieldModel) string 
 }
 
 func (_this *FieldBaseModel) Page(FieldList []DataSourceLib.FieldModel) string {
-	var list []string
 	for i := 0; i < len(FieldList); i++ {
 		if FieldList[i].GetType() != MySqlConfigLib.Page {
 			continue
 		}
-		list = append(list, FieldList[i].GetExpression())
+		return FieldList[i].GetExpression()
 	}
-	return " limit " + strings.Join(list, ",")
+	return ""
 }
