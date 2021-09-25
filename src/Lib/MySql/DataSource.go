@@ -44,6 +44,7 @@ func (_this *DataSource) Update(paramList []DataSourceLib.FieldModel) (int64, er
 	mySearch := UpdateModel{FieldList: paramList}
 	sql, Parameter := mySearch.Sql()
 	return _this.Base.Update(sql, Parameter)
+
 }
 
 func (_this *DataSource) Count(paramList []DataSourceLib.FieldModel) (int64, error) {
