@@ -46,6 +46,13 @@ func (_this *DataSource) Update(paramList []DataSourceLib.FieldModel) (int64, er
 	return _this.Base.Update(sql, Parameter)
 }
 
+func (_this *DataSource) Count(paramList []DataSourceLib.FieldModel) (int64, error) {
+	mySearch := SearchModel{FieldList: paramList}
+	sql, Parameter := mySearch.Sql()
+	res := 0
+	return int64(res), _this.Base.GetOneColumn(sql, Parameter, res)
+}
+
 func (_this *DataSource) Connect() error {
 	return _this.Base.Connect()
 }
